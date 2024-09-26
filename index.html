@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grad Link Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-logo">
+            <!-- You can use an image for the logo -->
+            <img src="asset/logo.jpg" alt=""> 
+        </div>
+        <h2 class="login-title">Login</h2>
+        <p class="not-registered">
+            Not Registered? <a href="#">Sign up here.</a>
+        </p>
+        
+        <div class="dropdown-container">
+            <select id="user-type" class="dropdown">
+                <option value="faculty">Faculty</option>
+                <option value="student">Student</option>
+                <option value="alumni">Alumni</option>
+            </select>
+        </div>
+        
+        <div class="input-container">
+            <input type="email" id="email" placeholder="Email" class="input-field">
+            <input type="password" id="password" placeholder="Password" class="input-field">
+        </div>
+        
+        <button class="login-button">Log in</button>
+        
+        <div class="social-login">
+            <p>or log in with</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/login" target="_blank"> <img src="https://static.vecteezy.com/system/resources/previews/018/930/480/non_2x/linkedin-logo-linkedin-icon-transparent-free-png.png" alt="LinkedIn"></a>        
+                <a href="https://accounts.google.com/signin" target="_blank"><img src=" https://png.pngtree.com/png-clipart/20230916/original/pngtree-google-internet-icon-vector-png-image_12256707.png" alt="Google"></a>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
